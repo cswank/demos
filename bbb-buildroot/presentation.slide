@@ -1,16 +1,26 @@
-Sample Presentation
-10 Mar 2014
+Deploying a Go App to a Beaglebone Black With Buildroot
+September 3, 2015
 Tags: go golang beaglebone buildroot
 
 Craig Swank
 craigswank@gmail.com
-http://robotbrewery.com.com/
+http://robotbrewery.com
+
+* Goal
+
+- Deploy a go app to a bbb with a single root fs write
 
 * Why????
 
-.image ./talim.jpg
+.image ./Unknown.jpeg
 
-- Programming addict
-- C, Java, Ruby, Go
-- Director, JoshSoftware
+- A
+- B
+- C
 .link http://www.joshsoftware.com/team The JoshSoftware team
+
+* Dunno
+
+- A
+- B
+- C
