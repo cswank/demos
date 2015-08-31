@@ -1,0 +1,13 @@
+{
+    "gadgets": [
+        {
+            "location": "living room",
+            "name": "light",
+            "pin": {
+                "type": "gpio",
+                "port": "8",
+                "pin": "9"
+            }
+        }
+    ]
+}
