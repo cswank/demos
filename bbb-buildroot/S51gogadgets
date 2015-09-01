@@ -1,8 +1,8 @@
 #! /bin/sh
 
-DAEMON=/usr/local/bin/gogadgets
+DESC="gogadgets"
 NAME=gogadgets
-DESC="Gogadgets"
+DAEMON=/usr/local/bin/gogadgets
 DAEMON_OPTS="-g /etc/gogadgets/config.json"
 
 test -f $DAEMON || exit 0
