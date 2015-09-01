@@ -1,4 +1,4 @@
-Deploying a Go App to a Beaglebone Black With Buildroot
+Beaglebone Black And Buildroot
 September 3, 2015
 Tags: go golang beaglebone buildroot
 
@@ -10,15 +10,27 @@ http://robotbrewery.com
 
 - Deploy a go app to a bbb with a single root fs write
 
+
 * Why????
 
-
+    $ df -h .
     Filesystem      Size  Used Avail Use% Mounted on
     /dev/root       1.8G  1.4G  230M  87% /
 
-- A
-- B
-- C
+* Why????
+
+    $ df -h .
+    Filesystem      Size  Used Avail Use% Mounted on
+    /dev/root       1.8G  1.4G  230M  87% /
+
+    # df -h .
+    Filesystem      Size  Used  Avail Use% Mounted on
+    /dev/root       15.0M 11.2M 2.7M  81%  /
+
+* Steps
+
+    $ make beaglebone_defconfig
+    $ make menuconfig
 
 * Dunno
 
