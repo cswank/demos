@@ -8,6 +8,9 @@ http://robotbrewery.com.com/
 
 * Why????
 
+    Filesystem      Size  Used Avail Use% Mounted on
+    /dev/root       1.8G  1.4G  230M  87% /
+
 .image ./talim.jpg
 
 - Programming addict
