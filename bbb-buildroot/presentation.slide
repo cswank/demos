@@ -6,31 +6,72 @@ Craig Swank
 craigswank@gmail.com
 http://robotbrewery.com
 
-* Goal
+* Gogadgets
 
-- Deploy a go app to a bbb with a single root fs write
+.link https://github.com/cswank/gogadgets
 
+* Greenhouse
 
-* Why????
+.image P1040663.jpg
+.image P1040664.jpg
+.image P1040665.jpg
+
+* Sprinklers
+
+.image P1040666.jpg
+
+* Brewery
+
+.image P1020766.jpg
+.image P1020767.jpg
+.image IMG_2802.jpg
+
+* Why?
+
+Arch/Docker
 
     $ df -h .
     Filesystem      Size  Used Avail Use% Mounted on
     /dev/root       1.8G  1.4G  230M  87% /
 
-* Why????
+* Why?
+
+Arch/Docker
 
     $ df -h .
     Filesystem      Size  Used Avail Use% Mounted on
     /dev/root       1.8G  1.4G  230M  87% /
+
+Buildroot
 
     # df -h .
     Filesystem      Size  Used  Avail Use% Mounted on
     /dev/root       15.0M 11.2M 2.7M  81%  /
 
+* Goal
+
+- Deploy a go app to a bbb with a single root fs write
+
 * Steps
 
     $ make beaglebone_defconfig
     $ make menuconfig
+
+    System configuration -->
+      Root password (I'll never tell)
+      Network interface to configure through DHCP (eth0)
+      remount root filesystem read-write during boot (x)
+    Filesystem images -->
+      ext2/3/4 root filesystem -->
+        ext2/3/4 variant (ext4)
+    Target packages -->
+      dhcpd (x)
+      dropbear (x)
+      ntp (x)
+      
+
+      
+    
 
 * Dunno
 
