@@ -12,19 +12,15 @@ http://robotbrewery.com
 
 * Greenhouse
 
-.image P1040663.jpg
-.image P1040664.jpg
-.image P1040665.jpg
+.html greenhouse.html
 
 * Sprinklers
 
-.image P1040666.jpg
+.html sprinklers.html
 
-* Brewery
+* Automatic Beer Brewery
 
-.image P1020766.jpg
-.image P1020767.jpg
-.image IMG_2802.jpg
+.html brewery.html
 
 * Why?
 
@@ -68,13 +64,8 @@ Buildroot
       dhcpd (x)
       dropbear (x)
       ntp (x)
-      
 
-      
-    
+* References
 
-* Dunno
-
-- A
-- B
-- C
+.link http://git.buildroot.net/buildroot/tree/board/beaglebone/readme.txt beaglebone buildroot
+.link http://www.armhf.com/boards/beaglebone-black/bbb-sd-install configuring your sd card
